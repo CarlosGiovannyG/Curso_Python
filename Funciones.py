@@ -18,3 +18,5 @@ def evaluarSueldoMinimo (sueldo):
 
 s = 1200
 evaluarSueldoMinimo(s)
+
+'''COMENTARIO'''

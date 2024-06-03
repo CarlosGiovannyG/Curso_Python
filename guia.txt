@@ -1,0 +1,10 @@
+# variables
+# cadenas
+# numeros opeacinales
+# if
+# for
+# while
+# loop anidados
+# funciones
+# xargs
+# kwargs

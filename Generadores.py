@@ -1,4 +1,4 @@
-"""Nos prmiten extraer valores de una funcion y almacenarlos de uno en uno en objetos ieterables
+"""Nos prmiten extraer valores de una funcion y almacenarlos de uno en uno en objetos iterables
     sin la nesecidad de almacenar todos a la vez en la memoria RAM"""
 # ASÍ SERIA UNA LISTA NORMAL
 

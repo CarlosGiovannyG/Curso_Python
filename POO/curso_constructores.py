@@ -19,11 +19,12 @@ Asi con un print llamamos al objeto y seguido de un punto lamamos el atributo qu
 
 
 class Curso():
-        
-    def __init__(self, nom, cre, pro): 
+    def __init__(self, nom, cre, pro):
         self.nombre = nom
         self.creditos = cre
         self.profesion = pro
+
+
 print(" ")
 print(" ")
 curso1 = Curso("Matemáticas", 5, "Ingernieria Civil")
@@ -31,10 +32,10 @@ print(curso1.nombre, curso1.creditos, curso1.profesion)
 print(" ")
 print(" ")
 curso2 = Curso("Lenguaje", 4, "Ingernieria Industrial")
-print(curso2.nombre, curso2.creditos, curso2.profesion )
+print(curso2.nombre, curso2.creditos, curso2.profesion)
 print(" ")
 print(" ")
 curso3 = Curso("Inglés", 3, "Comercio Exterior")
-print(curso3.nombre, curso3.creditos, curso3.profesion )
+print(curso3.nombre, curso3.creditos, curso3.profesion)
 print(" ")
 print(" ")

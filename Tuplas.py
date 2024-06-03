@@ -114,3 +114,5 @@ print(" ")
 2. crear los contadores 
 
 """
+newTupla = tuple([1,2,3])
+print(newTupla)

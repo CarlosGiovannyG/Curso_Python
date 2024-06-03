@@ -5,14 +5,15 @@ Las variables pueden cambiar su valor las veces que lo necesitemos, en python la
 reconocen su tipo de dato con solo asignarlas
 """
 nombre = "Carlos Giovanny"
+print('🚀👉 file:Variables.py-8 variable string');
 print(nombre)
-
 edad = 39
+print('🚀👉 file:Variables.py-11 numero entero');
 print(edad)
-
+sueldo = 205.10
+print('🚀👉 file:Variables.py-14 nuemro float');
+print(sueldo)
+print('🚀👉 file:Variables.py-16 boolean');
 edad = True
 print(edad)
 
-
-sueldo = 205.10
-print(sueldo)

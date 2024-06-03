@@ -8,7 +8,7 @@ elemento se hace por medio de una coma.
 Los diccionarios nos permiten tener asociado cualquier tipo de datos"""
 print("")
 miDiccionario = {"España": "Madrid", "Perú": "Lima", "Alemania": "Berlin",
-                "Colombia": "Bogota"}
+                 "Colombia": "Bogota"}
 print(miDiccionario)
 print("")
 """Para imprimir una valor solo nesecitamos nombrar el dato asosiado a esa clave 
@@ -71,33 +71,33 @@ if 80 in puertos:
         print("no")
     else:
         print("yes")
-        
+
 # CON UN CICLO FOR  PODEMOS OBTENER LAS LLAVES DE UN DICCIONARIO
 print("")
-dict_ports = {22:"SSH", 23:"telnet", 80:"Http"}
+dict_ports = {22: "SSH", 23: "telnet", 80: "Http"}
 for key in dict_ports:
     print(key)
 print("")
 
-# CON UN CICLO FOR Y EL METODO ITEMS PODEMOS OBTENER LAS LLAVES Y SU 
+# CON UN CICLO FOR Y EL METODO ITEMS PODEMOS OBTENER LAS LLAVES Y SU
 # RESPECTIVO ITEMS, DE UN DICCIONARIO
 print("")
-dict_ports = {22:"SSH", 23:"telnet", 80:"Http"}
-for k,v in dict_ports.items():
+dict_ports = {22: "SSH", 23: "telnet", 80: "Http"}
+for k, v in dict_ports.items():
     print(k, "->", v)
 
 print("")
 
 print("")
 # CON LA FUNCION LEN SABEMO EL NUMERO DE ITEMS DE UN DICCIONARIO
-puertos = {80:"HTTP", 23:"SMTP", 443:"HTTPS"}
-print(len(puertos))
+puertos = {80: "HTTP", 23: "SMTP", 443: "HTTPS"}
+print('largo', len(puertos))
 print("")
 
 print("")
-# CON EL METODO GET SABEMOS EL VALOR DE UN ITEM A PARTIR DE LA LLAVE Y 
-#TENEMOS LA OPCION DE DE PONER UN MENSAJE DE RETORNO SI NO SE ENCUENTRA 
-dict1 = {"a":1, "b":2, "c":3}
+# CON EL METODO GET SABEMOS EL VALOR DE UN ITEM A PARTIR DE LA LLAVE Y
+# TENEMOS LA OPCION DE DE PONER UN MENSAJE DE RETORNO SI NO SE ENCUENTRA
+dict1 = {"a": 1, "b": 2, "c": 3}
 print(dict1.get("a"))
 print(dict1.get("d", "clave no encontrada."))
 print("")
@@ -109,12 +109,12 @@ CON LA FUNCION MIN SABEMOS EL VALOR MINIMO
 print("")
 # CON EL METODO KEYS OBTIENE UNA LISTA CON TODAS LAS CLAVES
 # Y EL METODO VALUES OBTIENE LOS VALORES
-dict1 = {"a":1, "b":2, "c":3}
+dict1 = {"a": 1, "b": 2, "c": 3}
 print(list(dict1.keys()))
 print(list(dict1.values()))
 print("")
 
-#El metodo dict permite convertir listas de listas y listas de tuplas a diccionarios.
+# El metodo dict permite convertir listas de listas y listas de tuplas a diccionarios.
 print("")
 puertos = [[80, "http"], [20, "ftp"], [23, "telnet"]]
 d_port = dict(puertos)
@@ -124,4 +124,42 @@ d_port = dict(puertos)
 print(d_port)
 print("")
 
+'''cion del podemos eliminar elementos del diccionario'''
+del dict1["a"]
+print(dict1)
+del (dict1["b"])
+print(dict1)
 
+dict1["a"] = 1
+dict1["b"] = 2
+print(dict1)
+
+'''iterar un dicccionario'''
+
+for valor in dict1:
+    print(valor, dict1[valor])
+
+for valor in dict1.items():
+    print(valor)
+
+for llave, valor in dict1.items():
+    print(llave, valor)
+
+
+usuarios = [
+    {'id': 1, 'nombre': 'Carlos'},
+    {'id': 2, 'nombre': 'Giovanny'},
+    {'id': 3, 'nombre': 'Gualtero'},
+    {'id': 4, 'nombre': 'Londoño'},
+]
+
+for usuario in usuarios:
+    print(usuario['nombre'])
+
+'''desempaquetamiento '''
+'''ESTE OPERADOR SIRVE EN TUPLAS Y LISTAS CON UN SOLO * PERO EN DICCIONARIOS ES CON DOS **'''
+
+juntos1 = {"a": 1, "b": 2, "c": 3}
+juntos2 = {'id': 1, 'nombre': 'Carlos'}
+juntos = {**juntos1, **juntos2}
+print(juntos)
