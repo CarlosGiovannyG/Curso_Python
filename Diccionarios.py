@@ -7,8 +7,12 @@ y cada llave va unida a su clave por medio de los dos puntos, y la separacion de
 elemento se hace por medio de una coma.
 Los diccionarios nos permiten tener asociado cualquier tipo de datos"""
 print("")
-miDiccionario = {"España": "Madrid", "Perú": "Lima", "Alemania": "Berlin",
-                 "Colombia": "Bogota"}
+miDiccionario = {
+    "España": "Madrid",
+    "Perú": "Lima",
+    "Alemania": "Berlin",
+    "Colombia": "Bogota"
+    }
 print(miDiccionario)
 print("")
 """Para imprimir una valor solo nesecitamos nombrar el dato asosiado a esa clave 

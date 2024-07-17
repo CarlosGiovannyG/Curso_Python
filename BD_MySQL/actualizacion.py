@@ -1,15 +1,15 @@
 """ Para hacer una lectura de datos usamos la sentencia SELECT propia de SQL.
-    1. necsitamos un CURSOR que es un objeto relacionado con las DB y actua omo un nexo 
+    1. necesitamos un CURSOR que es un objeto relacionado con las DB y actuar omo un nexo 
     para poder hacer lectura de datos y hacer inserciones, actualizaciones y eliminaciones 
-                    CURSOR = CONEXION.CURSOR()
-    Seguid a esto, ejecutamos un CURSOR.EXECUTE() la cual nos permitira ejecutar una sentencia
-    SQL, dentro del parentesis hacemos una sentecia INSERT INTO entre comillas por ser STR seguido de
-    la función TABLEBASE() y entre parenrtesis maracar los campos que vamos a afectar seguido de la 
-    palabra VALUES (), y enecomillas sencillas los valores a ingresar
+                    CURSOR = CONEXIÓN.CURSOR()
+    Seguid a esto, ejecutamos un CURSOR.EXECUTE() la cual nos permitirá ejecutar una sentencia
+    SQL, dentro del paréntesis hacemos una sentencia INSERT INTO entre comillas por ser STR seguido de
+    la función TABLEBASE() y entre paréntesis marcar los campos que vamos a afectar seguido de la 
+    palabra VALUES (), y en comillas sencillas los valores a ingresar
       
             CURSOR.EXECUTE("INSERT INTO(Nombres, Apellidos, Correo, Edad, Teléfono ) VALUES('','',)")
-    Para hacer dinamico el proceso, recordemos usar variables para el ingreso de los datos, y crear otra 
-    variable con la sentencia para crear el metodo y así quede mejor elaborado.
+    Para hacer dinámico el proceso, recordemos usar variables para el ingreso de los datos, y crear otra 
+    variable con la sentencia para crear el método y así quede mejor elaborado.
                     dato = input()
                     sentencia = "INSERT INTO(Nombres, Apellidos, Correo, Edad, Teléfono ) VALUES('{0}')".format(dato)
                     CURSOR.EXECUTE(sentencia)

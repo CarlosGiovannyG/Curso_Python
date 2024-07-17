@@ -1,18 +1,18 @@
 """
-Constructores: Sirvewn para drle un estado inicial a nuestro objeto, esto quiere decir
+Constructores: Sirven para darle un estado inicial a nuestro objeto, esto quiere decir
 que se le dan unos valores iniciales a los objetos, para esto se dan los valores al 
-momento de instanciar el objeto. 
+momento de instancia el objeto. 
 Para hacer uso de un constructor definimos una función constructora con la función
-__init__(self); dentro de ella asignamos los atibutos que se asignan en el estado 
-inicial del objeto. El parametro inicial siempre es self la cual hace referencia a la propia clase;
-seguido nombramos los parametros que le vamos a asignar al objetos (de nombre seria nom)
-dentro de la funcion llamamos la palabra self y seguido de un punto nombramos el atributo 
-luego con un igual se asigna al argumento asignado anteriormente dentro del parentesis  
+__init__(self); dentro de ella asignamos los atributos que se asignan en el estado 
+inicial del objeto. El parámetro inicial siempre es self la cual hace referencia a la propia clase;
+seguido nombramos los parámetros que le vamos a asignar al objetos (de nombre seria nom)
+dentro de la función llamamos la palabra self y seguido de un punto nombramos el atributo 
+luego con un igual se asigna al argumento asignado anteriormente dentro del paréntesis  
     
-    -*- del atributo "nombre" se podria poner el parametro "nom"
+    -*- del atributo "nombre" se podría poner el parámetro "nom"
         -*- self.nombre = nom
-Para que luego al nombrar a cada objeto, el cual se nombra como si fuera una variable, pro despues
-del igual se llama a la clase y dentro del parentesis se asignan los atributos de cada objeto, como
+Para que luego al nombrar a cada objeto, el cual se nombra como si fuera una variable, pro después
+del igual se llama a la clase y dentro del paréntesis se asignan los atributos de cada objeto, como
 puede ser nombre, apellido, etc.
 Asi con un print llamamos al objeto y seguido de un punto lamamos el atributo que queremos mostrar
 """

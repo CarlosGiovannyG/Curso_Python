@@ -1,15 +1,15 @@
 """
-MODULO: es un archivo con extención  .py o .pyc (PYTHON COMPILADO), es un modulo que posee
-        su propio espácio de nombres osea que contiene su propio contexto; el
-        cual puede contener variables, funciones,clases o incluso otros modulos
+MODULO: es un archivo con exención  .py o .pyc (PYTHON COMPILADO), es un modulo que posee
+        su propio espacio de nombres osea que contiene su propio contexto; el
+        cual puede contener variables, funciones,clases o incluso otros módulos
 PARA QUE SIRVEN?: sirven para organizar mejor el código y poder reutilizarlo mejor.
-        Lo anterior viene ligado a dos principios que son: LA MODULIZACIÓN Y REUTILIZACIÓN.
+        Lo anterior viene ligado a dos principios que son: LA MODULACIÓN Y REUTILIZACIÓN.
         De esta manera podemos hacer el código mas mantenible y podemos reutilizar y
         estará mas organizado
 """
 """Para poder hacer uso de un modulo primero lo debemos importar con la palabra reservada IMPORT
-    ademas al usarla debemos ombrar el archivo donde se encuentra y a traves de un punto
-    nombramos la funcion o clase que vamos a usar"""
+    ademas al usarla debemos nombrar el archivo donde se encuentra y a traves de un punto
+    nombramos la función o clase que vamos a usar"""
 
 import Funciones_matematicas
 

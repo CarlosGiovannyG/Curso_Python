@@ -2,12 +2,12 @@
 PAQUETE: es un directorio (carpeta) donde se almacenan módulos relacionados entre si.
 
 PARA QUE SIRVEN?: sirven para organizar mejor el código y poder reutilizarlo mejor.
-        (MODULIZACIÓN Y REUTILIZACIÓN.)
-        De esta manera podemos hacer el código mas mantenible y podemos reutilizar y
+        (MODULACIÓN Y REUTILIZACIÓN.)
+        De esta manera podemos hacer el código mas sostenible y podemos reutilizar y
         estará mas organizado
-COMO SE CREA UN PAQUETE: Crear una carpeta o directorio con unarchivo llamado
+COMO SE CREA UN PAQUETE: Crear una carpeta o directorio con un archivo llamado
         __init__.py .Este lo que hace es convertir un directorio en un módulo
-        (paquete) que contiene otros módulos, y esto lo hace para pode inmortarlos
+        (paquete) que contiene otros módulos, y esto lo hace para pode importarlos
 """
 """Para poder hacer uso de un modulo primero lo debemos importar con la 
         palabra reservada FROM seguido del nombre del paquete (carpeta) seguido de

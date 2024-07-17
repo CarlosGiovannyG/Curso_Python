@@ -4,8 +4,8 @@ de la clase desde el exterior.
 En Python no existe, pero se puede simular precediendo los atributos y métodos 
 con dos barras bajs ( __ ) antes de dar nombre al atributo
 Solo se pueden acceder a estos atributos encapsulados desde la misma clase, definiendo 
-una funcion para este proposito. 
-En este caso vemos una funcion encapsulada la cual hará su proposito si poder ser 
+una función para este propósito. 
+En este caso vemos una función encapsulada la cual hará su propósito si poder ser 
 accesible desde el exterior solo se puede acceder a ella desde la misma clase
 """
 
